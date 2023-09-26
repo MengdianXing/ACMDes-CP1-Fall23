@@ -8,8 +8,8 @@ body {
     font-size:larger;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 ul{
@@ -18,8 +18,17 @@ ul{
     margin-top: 50px;
 }
 
+a {
+    color: white;
+}
+
 li {
-    padding-right: 30px;
+    color: white;
+    padding-right: 60px;
+}
+
+h1 {
+    color: aquamarine;
 }
 
 @media (max-width: 1200px){
@@ -28,6 +37,14 @@ li {
         color: rgb(174, 190, 204);
         font-size: medium;
         /* font-family: */
+    }
+
+    li {
+        padding-right: 30px;
+    }
+
+    h1 {
+        color: rgb(203, 249, 52);
     }
 }
 
@@ -44,6 +61,17 @@ li {
         display: flex;
         flex-direction: column;
     }
-    
+
+    main {
+        display: flex;
+        flex-direction:column;
+    }
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        color: #b7caef;
+    }
 }
 
