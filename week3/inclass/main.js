@@ -10,6 +10,7 @@ let changeColor = function(){
     let blueComp = Math.random()*255
 
     let bgColor = "rgb(" + redComp + ", " + greenComp + ", " + blueComp + ")"
+   
     firstDiv.style.backgroundColor = bgColor
 }
 
@@ -17,15 +18,13 @@ let addText = function(){
     let someText = "Hello, this is some text!"
     let parag = document.createElement("p")
     parag.innerText = someText
+    
     firstDiv.appendChild(parag)
 
 }
 
-// fat arrow notation
-// let changeColor = ()=>{
-
-//}
 
 firstDiv.style.backgroundColor = "rgb(230,170,170)"
 colorChangeButton.addEventListener("click", changeColor)
 addTextButton.addEventListener("click", addText)
+
