@@ -1,0 +1,61 @@
+nav {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    height: 30px;
+}
+
+#nav-right{
+    
+    display: flex;
+}
+
+#link1, #link2, #link3, #link4{
+    /* border: 1px solid red; */
+    padding-right: 20px;
+
+}
+
+#logo1{
+    padding-left: 20px;
+}
+
+#monkey{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+
+}
+
+/* main {
+    display: flex;
+    align-content: center;
+} */
+
+#main-div{
+    background-color: darkgray;
+    /* width: 70%; */
+    margin-right: 150px;
+    margin-left: 150px;
+
+}
+
+#display-img {
+    margin-top: 60px;
+    height: 500px;
+    width: 500px;
+}
+
+#mainimg {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
