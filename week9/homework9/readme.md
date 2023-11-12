@@ -1,0 +1,3 @@
+qa: try to create the irregular movement for the blobs
+solution: Creating irregular movement in the blobs are achieved by introducing variations in the parameters that determine their positions. I use the noise() function as a good starting point.Try tweaking the parameters inside the map() function to extend the range of randomness and create more dynamic blob shapes
+Secondly, introducing variations in the blobs' speed (this.tSpeed) or scale factor (this.s) to add complexity to their motion. Play around with these parameters and consider experimenting with different noise functions or parameters to achieve a visually interesting and irregular movement.
