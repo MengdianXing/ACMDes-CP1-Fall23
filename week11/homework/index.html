@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/addons/p5.sound.min.js"></script> -->
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+      <img src="./1.jpg" width="940" height="680"/>
+      <img src="./2.jpg" width="1280" height="500"/>
+      <p>
+        Intent:
+      <p>
+        Both the cat and the mouses are in the same room. The cat can move and eat the
+        mice, the mice can only move. If you click on Canvas, you can add another mouse. If the cat eat all the mouse, the cat will stop moving
+      </p>
+      <p>Process:</p>
+      <p>
+        First, Set up the canvas size. 
+        Then created two classes, one class is for the cat and the other one is for the mouse. both has their own display with cat and mouse shape.
+        In the cat class, we gave it a random X & Y value to determine it location on the canvas. also speed and step size value to control it movement.
+        Move method for the cat to run randomly base on speed and step size.
+        In the mouse class, we gave it a random X & Y value. Speed and step size value to control it movement. Also, mouse has a boolean value caught to determine if the mouse caught or not.
+        Move method for the cat to run randomly base on speed and step size if the mouse is still alive.
+      </p>
+      <p>Finally:</p>
+      <p>
+        We created one cat and 12 mouses in the sketch.
+        Both cat and mouses will move base on their .move() method.
+        The cat will catch and eat the mouse within the distance of 15. the mouse will disappear from the room
+        When there is no mouse in the room, the cat will stop moving
+        New mouse babies will born by clicking on the canvas.
+      </p>
+    </main>
+    <script src="sketch.js"></script>
+    <script src="Cat.js"></script>
+    <script src="Mouse.js"></script>
+  </body>
+</html>
